@@ -1,0 +1,19 @@
+# virtual environment
+venv/
+.venv/
+
+# python bytecode
+__pycache__/
+*.py[cod]
+
+# trained model cache (regenerated at startup from the CSV)
+model_trained.pkl
+
+# model.pkl is currently a corrupt file that cannot be unpickled.
+# Re-export it from Colab, then delete this line to commit the working model.
+# model.pkl
+
+# local editor / OS files
+.DS_Store
+.vscode/
+.idea/
